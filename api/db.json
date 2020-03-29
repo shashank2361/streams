@@ -1,0 +1,36 @@
+{
+  "streams": [
+    {
+      "title": "my stream",
+      "description": "this is a great stream",
+      "id": 1
+    },
+    {
+      "title": "my stream",
+      "description": "this is a great stream",
+      "id": 2
+    },
+    {
+      "title": "Other Stream",
+      "description": "Here is the stream",
+      "id": 3
+    },
+    {
+      "title": "i creates this stream",
+      "description": "This Stream was created by me",
+      "userId": "107891960932855851521",
+      "id": 4
+    },
+    {
+      "title": "Unexpected Behavious",
+      "description": "Didn't expect that",
+      "userId": "107891960932855851521",
+      "id": 5
+    },
+    {
+      "title": "edit Stream",
+      "description": "edit stream after refactor",
+      "id": 7
+    }
+  ]
+}

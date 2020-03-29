@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.sidebar {
+  position : fixed;
+  top:0;
+  left:0;
+  height:100vh;
+  width:300px;
+ 
+  background-color:  green;  
+ 
+}
+
+.content{
+    margin-left:300px;
+}
+
+
+.modal-body {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  height:30%;
+  width: 30%;
+}
+
+
+.modal{
+    height:100%;
+    width:100%;
+    position: fixed;
+    background-color: gray;
+    left:0;
+    top:0;
+    z-index:10;
+
+}
+/* Modal Content */
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.positioned{
+    position:relative;
+    z-index:0;
+}
+</style>
+</head>
+<body>
+
+    <div class="positioned">
+        <div id="" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-body">
+              <span class="close">&times;</span>
+              <h1>Some text in the Modal..</h1>
+            </div>
+          
+          </div>
+
+    </div>
+
+      
+    
+
+  <!-- Modal content -->
+  <div class="sidebar">I am a sidebar</div>
+  <div class="content">
+      <h1>I am some content</h1>
+  </div>
+
+</div>
+
+ 
+
+</body>
+</html>
